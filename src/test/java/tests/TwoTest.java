@@ -14,6 +14,7 @@ public class TwoTest extends Base {
 	public void testtwo() throws IOException {
 		System.out.println("TestTwo gor executed");
 		System.out.println("Change made by dummy tester");
+		System.out.println("This changes made in KBranch");
 	
 		 driver=initializeBrowser();
 		driver.get("https://tutorialsninja.com/demo/");
