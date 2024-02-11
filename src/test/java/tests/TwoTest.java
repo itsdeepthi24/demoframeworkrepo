@@ -13,6 +13,8 @@ public class TwoTest extends Base {
 	@Test
 	public void testtwo() throws IOException {
 		System.out.println("TestTwo gor executed");
+		System.out.println("Change made by dummy tester");
+	
 		 driver=initializeBrowser();
 		driver.get("https://tutorialsninja.com/demo/");
 	
